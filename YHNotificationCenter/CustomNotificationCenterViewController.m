@@ -7,7 +7,7 @@
 //
 
 #import "CustomNotificationCenterViewController.h"
-#import "YHNotificationCenter.H"
+#import "YHNotificationCenter.h"
 
 @interface CustomNotificationCenterViewController ()<UITableViewDelegate,UITableViewDataSource>
 
