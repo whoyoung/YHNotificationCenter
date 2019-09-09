@@ -30,6 +30,8 @@
     dispatch_once(&onceToken, ^{
         center = [[YHNotificationCenter alloc] init];
         [[NSNotificationCenter defaultCenter] addObserver:center selector:@selector(didReceiveMemoryWarning) name:UIApplicationDidReceiveMemoryWarningNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:center selector:@selector(didReceiveMemoryWarning) name:UIApplicationDidEnterBackgroundNotification object:nil];
+
     });
     return center;
 }
