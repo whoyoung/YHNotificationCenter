@@ -9,3 +9,8 @@ Podfile
 ```
 pod 'YHNotificationCenter'
 ```
+
+## Change Log
+2019.9.9 进入后台清除已被释放的观察者及观察者信息
+
+
